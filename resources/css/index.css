@@ -25,3 +25,20 @@ footer> ul, li{
     padding-bottom: 1rem;
     border-bottom: 2px solid currentColor;
 }
+
+/* media query for mobile devices */
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    #pikachu_img{
+        text-align: center;
+        float: none;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #pikachu_img{
+        text-align: center;
+        float: none;
+        margin-bottom: 1rem;
+    }
+}
