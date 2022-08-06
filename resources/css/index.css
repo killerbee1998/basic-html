@@ -15,6 +15,11 @@ footer> ul, li{
     justify-content: space-around;
 }
 
+.intro-section h1{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid currentColor;    
+}
+
 .biology-section h3{
     padding-bottom: 1rem;
     border-bottom: 2px solid currentColor;
