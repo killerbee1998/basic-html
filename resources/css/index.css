@@ -11,9 +11,10 @@
 footer{
     background-color: rgba(0,0,0,0.16);
 }
-footer> ul, li{
+footer> ul{
     display: flex;
     justify-content: space-around;
+    list-style: none;
 }
 
 section h1{
