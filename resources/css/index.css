@@ -7,6 +7,11 @@ html {
     color: rgb(230, 230,230);
 }
 
+.dark_overwrite{
+    background-color: rgb(20,20,20);
+    color: rgb(230, 230,230);  
+}
+
 #pikachu_img{
     width: 15rem;
     height: 15rem;
