@@ -48,6 +48,12 @@ html {
     justify-content: space-evenly;
 }
 
+.pikachu_form_element{
+    width: 10rem;
+    height: 4rem;
+
+}
+
 footer{
     background-color: rgb(20,20,20);
     border-top: 1px solid rgb(230, 230,230);
