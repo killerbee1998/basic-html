@@ -240,32 +240,36 @@
         </div>
     </div>
     
-    <div class="card bg-dark text-light">
+    <div class="main_pikachu_form card bg-dark text-light">
         <div>
-            <h3> Get More Facts About Pikachu</h3>
-            <p>Enlightning and Illuminating Pikachu facts are waiting for you. Start learning today. You can cancel or pause anytime. And the first lesson is on us!</p>
+            <div>
+                <h3> Get More Facts About Pikachu</h3>
+                <p>Enlightning and Illuminating Pikachu facts are waiting for you. Start learning today. You can cancel or pause anytime. And the first lesson is on us!</p>
+            </div>
+            <form class="pikachu_form">
+                <div class="mb-3 pikachu_form_element">
+                    <label for="exampleFormControlTextarea1" class="form-label"> Full Name</label>
+                    <input class="form-control pikachu_form_input" type="text" placeholder="Default input" aria-label="default input example">
+                </div>
+                <div class="mb-3 pikachu_form_element">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control pikachu_form_input" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3 pikachu_form_element">
+                    <label for="selectWhereFrom" class="form-label">Where did you hear about us></label>
+                    <select class="form-select pikachu_form_input" aria-label="Default select example" id="SelectWhereFrom">
+                        <option selected>Please Choose one option</option>
+                        <option value="1">Facebook</option>
+                        <option value="2">Twitter</option>
+                        <option value="3">Other</option>
+                    </select>
+                </div>
+                
+                <button type="submit" id="submit_btn" class="btn btn-secondary pikachu_form_element">Sign Up</button>
+            </form>
         </div>
-        <form class="pikachu_form">
-            <div class="mb-3 pikachu_form_element">
-                <label for="exampleFormControlTextarea1" class="form-label"> Full Name</label>
-                <input class="form-control pikachu_form_input" type="text" placeholder="Default input" aria-label="default input example">
-            </div>
-            <div class="mb-3 pikachu_form_element">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control pikachu_form_input" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3 pikachu_form_element">
-                <label for="selectWhereFrom" class="form-label">Where did you hear about us></label>
-                <select class="form-select pikachu_form_input" aria-label="Default select example" id="SelectWhereFrom">
-                    <option selected>Please Choose one option</option>
-                    <option value="1">Facebook</option>
-                    <option value="2">Twitter</option>
-                    <option value="3">Other</option>
-                </select>
-            </div>
-            
-            <button type="submit" id="submit_btn" class="btn btn-secondary pikachu_form_input">Sign Up</button>
-        </form>
+
+        <img src="resources\images\pikachu_cap.png" alt="Pikachu in a cap" class="pikachu_form_img">
 
     </div>
 
