@@ -12,10 +12,14 @@ html {
     color: rgb(230, 230,230);  
 }
 
-#pikachu_img{
-    width: 15rem;
-    height: 15rem;
-    margin: 0em 1em;
+.pikachu_img{
+    width: 18rem;
+    height: 18rem;
+}
+
+.pikachu_carousel{
+    width: 20rem;
+    height: 20rem;
     float: right;
     border: 5px solid yellow;
     box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
