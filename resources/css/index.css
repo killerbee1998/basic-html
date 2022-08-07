@@ -68,6 +68,7 @@ html {
 .pikachu_form_img{
     width:25rem;
     height:25rem;
+    float: right;
 }
 
 footer{
@@ -125,6 +126,15 @@ section h3{
         width: 23rem;
         height: 23rem;
     }
+
+    .pikachu_form_img{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -134,5 +144,14 @@ section h3{
         margin-bottom: 1rem;
         width: 23rem;
         height: 23rem;
+    }
+
+    .pikachu_form_img{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
     }
 }
