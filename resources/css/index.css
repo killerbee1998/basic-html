@@ -127,6 +127,11 @@ section h3{
     .pikachu_carousel{
         text-align: center;
         float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
         margin-bottom: 1rem;
         width: 23rem;
         height: 23rem;
@@ -146,6 +151,11 @@ section h3{
     .pikachu_carousel{
         text-align: center;
         float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
         margin-bottom: 1rem;
         width: 23rem;
         height: 23rem;
