@@ -241,23 +241,27 @@
     </div>
     
     <div>
-        <div class="pikachu_form">
-            <div class="mb-3">
+        <form class="pikachu_form">
+            <div class="mb-3 pikachu_form_element">
                 <label for="exampleFormControlTextarea1" class="form-label"> Full Name</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <input class="form-control pikachu_form_input" type="text" placeholder="Default input" aria-label="default input example">
             </div>
-            <div class="mb-3">
+            <div class="mb-3 pikachu_form_element">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control pikachu_form_input" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-            <select class="form-select" aria-label="Default select example">
-                <option selected>Where did you hear about this?</option>
-                <option value="1">Facebook</option>
-                <option value="2">Twitter</option>
-                <option value="3">Other</option>
-            </select>
-            <button type="button" class="btn btn-dark">Sign Up</button>
-        </div>
+            <div class="mb-3 pikachu_form_element">
+                <label for="selectWhereFrom" class="form-label">Where did you hear about us></label>
+                <select class="form-select pikachu_form_input" aria-label="Default select example" id="SelectWhereFrom">
+                    <option selected>Please Choose one option</option>
+                    <option value="1">Facebook</option>
+                    <option value="2">Twitter</option>
+                    <option value="3">Other</option>
+                </select>
+            </div>
+            
+            <button type="submit" id="submit_btn" class="btn btn-dark pikachu_form_input">Sign Up</button>
+        </form>
 
     </div>
 
