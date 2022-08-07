@@ -57,7 +57,7 @@ section h3{
 
 /* media query for mobile devices */
 @media only screen and (min-width: 600px) and (max-width:768px) {
-    #pikachu_img{
+    .pikachu_carousel{
         text-align: center;
         float: none;
         margin-bottom: 1rem;
@@ -67,7 +67,7 @@ section h3{
 }
 
 @media only screen and (max-width: 600px) {
-    #pikachu_img{
+    .pikachu_carousel{
         text-align: center;
         float: none;
         margin-bottom: 1rem;
