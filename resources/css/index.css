@@ -46,6 +46,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .pikachu_form_element{
@@ -53,14 +54,17 @@ html {
     height: 4rem;
 }
 
+.pikachu_form_element:nth-child(4){
+    width: 15rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+}
+
 .pikachu_form_input{
     width: 15rem;
     height: 2.5rem;
 }
 
-#submit_btn{
-    margin:1.7rem;
-}
 
 footer{
     background-color: rgb(20,20,20);
