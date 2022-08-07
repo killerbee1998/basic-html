@@ -49,9 +49,17 @@ html {
 }
 
 .pikachu_form_element{
-    width: 10rem;
+    width: 15rem;
     height: 4rem;
+}
 
+.pikachu_form_input{
+    width: 15rem;
+    height: 2.5rem;
+}
+
+#submit_btn{
+    margin:1.7rem;
 }
 
 footer{
