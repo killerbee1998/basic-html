@@ -43,12 +43,29 @@ html {
 }
 
 footer{
-    background-color: rgba(0,0,0,0.16);
+    background-color: rgb(20,20,20);
+    border-top: 1px solid rgb(230, 230,230);
 }
-footer> ul{
+.footer_container{
     display: flex;
-    justify-content: space-around;
-    list-style: none;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#footer-1 > img{
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem 2rem;
+}
+#footer-1 > p{
+    width: 15rem;
+    margin: 1rem 1rem;
+}
+
+#footer-2{
+    width: 15rem;
+    margin: 1rem 1rem;   
 }
 
 .accordion-btn{
