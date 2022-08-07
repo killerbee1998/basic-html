@@ -26,6 +26,11 @@ html {
     border-radius: 5%;
 }
 
+.pikachu_carousel_control{
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
 footer{
     background-color: rgba(0,0,0,0.16);
 }
