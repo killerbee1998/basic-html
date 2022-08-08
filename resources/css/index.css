@@ -7,6 +7,10 @@ html {
     color: rgb(230, 230,230);
 }
 
+#accordionExample, #intro-section, #biology-section{
+    margin:10px;
+} 
+
 .dark_overwrite{
     background-color: rgb(20,20,20);
     color: rgb(230, 230,230);  
