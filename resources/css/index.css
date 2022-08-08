@@ -7,7 +7,7 @@ html {
     color: rgb(230, 230,230);
 }
 
-#accordionExample, #intro-section, #biology-section{
+#accordionExample, #intro-section{
     margin:10px;
 } 
 
